@@ -12,8 +12,7 @@ class EloquentLoginRepository implements IloginRepository {
     }
 
     public function Authentication($email , $password){
-        Auth::attempt(['email' => $email , 'password' => $password]);
-        return "ok";
+       return Auth::attempt(['email' => $email , 'password' => $password]);
     }
 }
 

@@ -16,8 +16,15 @@ class LoginController extends Controller
         $this->repository = $repository;
     }
 
-    public  function  Authentication(){
-//        $request->validated();
-        return $this->repository->Authentication("email" , "123");
+    public  function  Authentication(LoginRequest $request){
+        $request->validated();
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $valid = $this->repository->Authentication($email , $password);
+        if($valid == 1){
+//            return redirect('')
+        }else{
+            return  "Not Login Successfully";
+        }
     }
 }

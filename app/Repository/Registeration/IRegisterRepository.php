@@ -4,5 +4,5 @@ namespace App\Repository\Registeration;
 
 interface IRegisterRepository
 {
-   public function Save();
+   public function Save($name , $email , $password);
 }

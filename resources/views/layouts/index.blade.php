@@ -1,7 +1,8 @@
 @extends('layouts.login_app')
 
 @section('content')
-<form action="" method="post" name="login">
+<form action="{{ route('login') }}" method="post" name="login">
+    {{ csrf_field() }}
                            <div class="form-group">
                               <label for="exampleInputEmail1">Email address</label>
                               <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
@@ -33,6 +34,6 @@
                               <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
                            </div>
                         </form>
-                 
+
 				</div>
 @endsection

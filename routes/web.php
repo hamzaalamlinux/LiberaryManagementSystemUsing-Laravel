@@ -21,4 +21,8 @@ Route::get('/', function () {
 
 /** Post request For Login */
 
-Route::get("/login" , [LoginController::class , 'Authentication']);
+Route::post("/login" , [LoginController::class , 'Authentication'])->name('login');
+
+Route::get('/register' ,[\App\Http\Controllers\Register\RegisterController::class ,'Save']);
+
+
