@@ -22,9 +22,13 @@ class LoginController extends Controller
         $password = $request->input('password');
         $valid = $this->repository->Authentication($email , $password);
         if($valid == 1){
-//            return redirect('')
+            return  redirect('Dashboard');
         }else{
-            return  "Not Login Successfully";
+            return redirect('/')->with('message' , 'email or password is wrong');
         }
+    }
+
+    public  function  Dashboard(){
+        return view('layouts.pages.Dashboard.index');
     }
 }

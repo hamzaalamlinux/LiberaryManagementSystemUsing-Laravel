@@ -17,9 +17,9 @@ class EloquentRegister implements IRegisterRepository
     public function Save($name , $email , $password)
     {
         $this->model->fill([
-           'name' => "hamza",
-           'email' => "alamhamza873@gmail.com",
-           'password' => Hash::make("123")
+           'name' =>  $name,
+           'email' => $email,
+           'password' => Hash::make($password)
         ])->save();
     }
 }

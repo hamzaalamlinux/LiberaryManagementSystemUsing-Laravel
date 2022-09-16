@@ -3,19 +3,19 @@ $("#signup").click(function() {
     $("#second").fadeIn("fast");
     });
     });
-    
+
     $("#signin").click(function() {
     $("#second").fadeOut("fast", function() {
     $("#first").fadeIn("fast");
     });
     });
-    
-    
-      
+
+
+
              $(function() {
                $("form[name='login']").validate({
                  rules: {
-                   
+
                    email: {
                      required: true,
                      email: true
@@ -23,29 +23,29 @@ $("#signup").click(function() {
                    password: {
                      required: true,
                      minlength: 6,
-                     
-                     
+
+
                    }
                  },
                   messages: {
                    email: "Please enter a valid email address",
-                  
+
                    password: {
                      required: "Please enter password",
-                    
+
                    }
-                   
+
                  },
                  submitHandler: function(form) {
                    form.submit();
                  }
                });
              });
-             
-    
-    
+
+
+
     $(function() {
-      
+
       $("form[name='registration']").validate({
         rules: {
           firstname: "required",
@@ -59,7 +59,7 @@ $("#signup").click(function() {
             minlength: 6
           }
         },
-        
+
         messages: {
           firstname: "Please enter your firstname",
           lastname: "Please enter your lastname",
@@ -69,10 +69,10 @@ $("#signup").click(function() {
           },
           email: "Please enter a valid email address"
         },
-      
+
         submitHandler: function(form) {
           form.submit();
         }
       });
     });
-    
+

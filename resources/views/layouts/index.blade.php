@@ -3,13 +3,14 @@
 @section('content')
 <form action="{{ route('login') }}" method="post" name="login">
     {{ csrf_field() }}
+    @include('layouts.pages.Errors.ValidationError')
                            <div class="form-group">
                               <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                              <input type="email" name="email" autocomplete="off"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                            </div>
                            <div class="form-group">
                               <label for="exampleInputEmail1">Password</label>
-                              <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                              <input type="password" name="password" autocomplete="off" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
                            </div>
                            <!-- <div class="form-group">
                               <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>

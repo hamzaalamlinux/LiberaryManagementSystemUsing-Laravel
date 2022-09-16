@@ -23,6 +23,8 @@ Route::get('/', function () {
 
 Route::post("/login" , [LoginController::class , 'Authentication'])->name('login');
 
-Route::get('/register' ,[\App\Http\Controllers\Register\RegisterController::class ,'Save']);
+Route::post('/register' ,[\App\Http\Controllers\Register\RegisterController::class ,'Save'])->name('register');
+
+Route::get('/dashboard', [LoginController::class , 'Dashboard'])->name('Dashboard');
 
 
