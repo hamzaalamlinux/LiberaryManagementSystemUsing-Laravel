@@ -1,0 +1,1 @@
+$("form[name='addbooks']").validate();

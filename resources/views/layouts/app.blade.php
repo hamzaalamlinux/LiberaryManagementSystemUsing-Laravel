@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/vendors/owl-carousel-2/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/vendors/owl-carousel-2/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/login.css')}}">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -22,6 +23,11 @@
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" />
+    <style>
+
+
+
+    </style>
   </head>
   <body>
     <div class="container-scroller">
@@ -77,6 +83,8 @@
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="{{asset('assets/js/dashboard.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="{{asset('assets/scripts/AddBooksValidation.js')}}"></script>
     <!-- End custom js for this page -->
   </body>
 </html>

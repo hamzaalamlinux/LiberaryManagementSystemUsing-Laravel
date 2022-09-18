@@ -20812,6 +20812,9 @@ div.tagsinput {
 .container-scroller {
   display: flex;
   position: relative; }
+  .form-control{
+    color:#fff !important;
+  }
 
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;
