@@ -14,18 +14,18 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Books' , function(Blueprint $table){
-            $table->id();
+            $table->increments('id' , 20001);
             $table->string('name');
             $table->string('AuthorName');
             $table->string('Description');
-            $table->string('category_id');
+            $table->integer('category_id');
             $table->date('date');
             $table->string('status');
-            $table->string('description');
+            $table->string('descriptions');
             $table->timestamp('last_used_at')->nullable();
             $table->timestamp('expires_at')->nullable();
         });
-        
+
         //
     }
 

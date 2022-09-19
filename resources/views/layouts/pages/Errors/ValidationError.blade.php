@@ -1,4 +1,3 @@
-
 @if(count($errors) > 0 )
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
         <button type="button" class="close validation-error" data-dismiss="alert" aria-label="Close">
