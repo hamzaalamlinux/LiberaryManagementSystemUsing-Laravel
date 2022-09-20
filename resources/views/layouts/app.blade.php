@@ -36,7 +36,7 @@
           <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
             <div class="ps-lg-1">
               <div class="d-flex align-items-center justify-content-between">
-               
+
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-between">
@@ -85,6 +85,7 @@
     <script src="{{asset('assets/js/dashboard.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
     <script src="{{asset('assets/scripts/AddBooksValidation.js')}}"></script>
+    <script src="{{asset('assets/scripts/Global.js')}}"></script>
     <!-- End custom js for this page -->
   </body>
 </html>

@@ -5,4 +5,5 @@ namespace App\Repository\Books;
 interface IBookRepository
 {
   public  function AddBooks($request);
+  public function BooksList();
 }

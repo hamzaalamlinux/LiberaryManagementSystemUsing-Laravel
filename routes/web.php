@@ -32,9 +32,13 @@ Route::middleware([authentication::class])->group(function(){
 Route::get('/dashboard', [LoginController::class , 'Dashboard'])->name('Dashboard');
 
 Route::get('/AddBooksFrom' , function(){
-    return view('layouts.pages.Dashboard.AddBooks');
+    return view('layouts.pages.Dashboard.Books.AddBooks');
 });
 
 Route::post('/AddBooks' , [AddBooksController::class  , 'AddBooks'])->name('AddBooks');
+
+Route::get('/GetBooks' , [\App\Http\Controllers\Books\BooksListController::class , 'GetBooks']);
+
+
 
 });

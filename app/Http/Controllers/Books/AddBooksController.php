@@ -34,7 +34,12 @@ class AddBooksController extends Controller
                ['url' => $item['path'] , 'category_id' => $request->input('category') , 'book_id' => $id]
            ];
         }
-        $this->imagesRepository->AddBooksImages($data);
+        try {
+            $this->imagesRepository->AddBooksImages($data);
+            return redirect('/AddBooksFrom')->with('success' , "Books Add Successfully");
+        }catch (\Exception $exception){
+            return redirect('/AddBooksFrom')->with('message' , $exception->getMessage());
+        }
 
     }
 }

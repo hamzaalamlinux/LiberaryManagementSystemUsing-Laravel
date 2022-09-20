@@ -16,4 +16,11 @@ class EloquestBooks implements IBookRepository
         $response = $this->model::latest('id')->first();
         return $response->id;
     }
+
+    public function BooksList()
+    {
+        $result = $this->model::select('books.name' , 'category.name as categoryname' , 'url' , 'descriptions')->join('category' , 'books.category_id' , '=' , 'category.id')->join('booksimages' , 'category.id' , '=' , 'booksimages.category_id')->where('books.status' , '=' , 'true')
+            ->get();
+        return $result;
+    }
 }
