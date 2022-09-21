@@ -16,18 +16,15 @@
     <link rel="stylesheet" href="{{asset('assets/vendors/owl-carousel-2/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/vendors/owl-carousel-2/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/login.css')}}">
-    <!-- End plugin css for this page -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" />
-    <style>
-
-
-
-    </style>
   </head>
   <body>
     <div class="container-scroller">
@@ -56,6 +53,7 @@
          @include("layouts.includes.header")
         <!-- partial -->
         <div class="main-panel">
+
             @yield('content')
         </div>
         <!-- main-panel ends -->
@@ -86,6 +84,9 @@
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
     <script src="{{asset('assets/scripts/AddBooksValidation.js')}}"></script>
     <script src="{{asset('assets/scripts/Global.js')}}"></script>
+    <script src="{{asset('assets/scripts/BookList.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!-- End custom js for this page -->
   </body>
 </html>
