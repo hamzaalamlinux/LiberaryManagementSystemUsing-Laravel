@@ -39,6 +39,6 @@ Route::post('/AddBooks' , [AddBooksController::class  , 'AddBooks'])->name('AddB
 
 Route::get('/GetBooks' , [\App\Http\Controllers\Books\BooksListController::class , 'GetBooks']);
 
-
+Route::post('AddBookRequest' , [\App\Http\Controllers\Books\AddBookRequestController::class , 'AddRequest'])->name('AddRequest');
 
 });

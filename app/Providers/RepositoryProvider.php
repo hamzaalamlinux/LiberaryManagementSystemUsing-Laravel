@@ -6,6 +6,8 @@ use App\Repository\Books\EloquestBooks;
 use App\Repository\Books\IBookRepository;
 use App\Repository\BooksImages\EloquentBooksImages;
 use App\Repository\BooksImages\IBookImagesRepository;
+use App\Repository\BooksRequest\BooksRequestEloquent;
+use App\Repository\BooksRequest\IBookRequestRepository;
 use App\Repository\Login\EloquentLoginRepository;
 use App\Repository\Login\IloginRepository;
 use App\Repository\Registeration\EloquentRegister;
@@ -33,6 +35,9 @@ class RepositoryProvider extends ServiceProvider
 
         /** For Books Images */
         $this->app->singleton(IBookImagesRepository::class , EloquentBooksImages::class);
+
+        /** Add Request For Books */
+        $this->app->singleton(IBookRequestRepository::class ,BooksRequestEloquent::class );
     }
 
     /**
