@@ -10,7 +10,8 @@
             <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Username</th>
+                <th scope="col">BookName</th>
+                <th scope="col">Authorname</th>
                 <th scope="col">Last Date</th>
                 <th scope="col">Message</th>
                 <th scope="col">Image</th>
@@ -19,12 +20,17 @@
             </thead>
             <tbody>
             @php
-              $count = 0;
+              $count = 1;
             @endphp
             @foreach($list as $item)
                 <tr>
                     <td>{{$count++}}</td>
                     <td>{{$item->name}}</td>
+                    <td>{{$item->AuthorName}}</td>
+                    <td>{{$item->endate}}</td>
+                    <td>{{$item->message}}</td>
+                    <td><img  src="{{@$item->url}}" alt="Card image" ></td>
+                    <td><button class="btn btn-success">Approve</button> </td>
                 </tr>
             @endforeach
             </tbody>

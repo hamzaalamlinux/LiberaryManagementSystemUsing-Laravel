@@ -25,7 +25,7 @@ class EloquestBooks implements IBookRepository
 
 
     public  function PendingBookList(){
-        $result = $this->model::select('books.id' , 'books.name' , 'url' , 'category.name as categoryname' , 'descriptions' , 'booksrequest.status')->join('booksimages' , 'books.id' , '=' , 'booksimages.book_id')->leftjoin('booksrequest' , 'books.id' , '=' , 'booksrequest.bookid')->join('category' , 'books.category_id' , '=' , 'category.id')->where('books.status' , '=' , 'true');
+        $result = $this->model::select('books.id' , 'books.name' , 'url' , 'category.name as categoryname' , 'descriptions' , 'booksrequest.status' ,'booksrequest.message' , 'books.AuthorName' , 'booksrequest.endate')->join('booksimages' , 'books.id' , '=' , 'booksimages.book_id')->leftjoin('booksrequest' , 'books.id' , '=' , 'booksrequest.bookid')->join('category' , 'books.category_id' , '=' , 'category.id')->where('books.status' , '=' , 'true');
         $result = $this->model->scopePendingRequest($result);
         return $result->get();
     }
