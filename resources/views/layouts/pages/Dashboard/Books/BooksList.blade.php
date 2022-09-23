@@ -2,6 +2,7 @@
 @section('content')
    <div class="row my-5">
        @include('layouts.pages.Errors.ValidationError')
+
        @foreach($list as $item)
            <div class="col-md-4">
                 <div class="card" style="width:400px">
@@ -9,7 +10,16 @@
                     <div class="card-body">
                         <h4 class="card-title">{{@$item->name}}</h4>
                         <p class="card-text">{{@$item->descriptions}}</p>
-                        <button type="button" onclick="add_request(this)" class="btn btn-success" id="{{@$item->id}}" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        @if($item->status == '0')
+                            @php
+                            $attribute = "disabled";
+                            @endphp
+                        @else
+                            @php
+                                $attribute = "";
+                            @endphp
+                        @endif
+                        <button type="button" onclick="add_request(this)" {{$attribute}} class="btn btn-success" id="{{@$item->id}}" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add Request
                         </button>
                     </div>

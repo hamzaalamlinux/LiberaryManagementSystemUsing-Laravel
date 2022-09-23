@@ -1,6 +1,7 @@
 <?php $__env->startSection('content'); ?>
    <div class="row my-5">
        <?php echo $__env->make('layouts.pages.Errors.ValidationError', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
        <?php $__currentLoopData = $list; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
            <div class="col-md-4">
                 <div class="card" style="width:400px">
@@ -8,7 +9,16 @@
                     <div class="card-body">
                         <h4 class="card-title"><?php echo e(@$item->name); ?></h4>
                         <p class="card-text"><?php echo e(@$item->descriptions); ?></p>
-                        <button type="button" onclick="add_request(this)" class="btn btn-success" id="<?php echo e(@$item->id); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <?php if($item->status == '0'): ?>
+                            <?php
+                            $attribute = "disabled";
+                            ?>
+                        <?php else: ?>
+                            <?php
+                                $attribute = "";
+                            ?>
+                        <?php endif; ?>
+                        <button type="button" onclick="add_request(this)" <?php echo e($attribute); ?> class="btn btn-success" id="<?php echo e(@$item->id); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add Request
                         </button>
                     </div>

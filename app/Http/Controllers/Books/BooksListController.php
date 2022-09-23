@@ -18,7 +18,7 @@ class BooksListController extends Controller
 
     }
     public  function GetBooks(){
-        $list = $this->repository->BooksList();
+        $list = $this->repository->BooksList("Active");
         if(!$list){
             return  redirect('layouts.pages.Dashboard.Books.BooksList')->with('message' , 'Sorry No Data Found');
         }

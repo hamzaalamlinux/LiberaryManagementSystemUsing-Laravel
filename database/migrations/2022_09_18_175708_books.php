@@ -22,6 +22,7 @@ return new class extends Migration
             $table->date('date');
             $table->string('status');
             $table->string('descriptions');
+            $table->integer('userid');
             $table->timestamp('last_used_at')->nullable();
             $table->timestamp('expires_at')->nullable();
         });

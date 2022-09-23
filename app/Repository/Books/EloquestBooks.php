@@ -19,8 +19,14 @@ class EloquestBooks implements IBookRepository
 
     public function BooksList()
     {
-        $result = $this->model::select('books.id' , 'books.name' , 'category.name as categoryname' , 'url' , 'descriptions')->join('category' , 'books.category_id' , '=' , 'category.id')->join('booksimages' , 'category.id' , '=' , 'booksimages.category_id')->where('books.status' , '=' , 'true')
-            ->get();
-        return $result;
+        $result = $this->model::select('books.id' , 'books.name' , 'url' , 'category.name as categoryname' , 'descriptions' , 'booksrequest.status')->join('booksimages' , 'books.id' , '=' , 'booksimages.book_id')->leftjoin('booksrequest' , 'books.id' , '=' , 'booksrequest.bookid')->join('category' , 'books.category_id' , '=' , 'category.id')->where('books.status' , '=' , 'true');
+        return $result->get();
+    }
+
+
+    public  function PendingBookList(){
+        $result = $this->model::select('books.id' , 'books.name' , 'url' , 'category.name as categoryname' , 'descriptions' , 'booksrequest.status')->join('booksimages' , 'books.id' , '=' , 'booksimages.book_id')->leftjoin('booksrequest' , 'books.id' , '=' , 'booksrequest.bookid')->join('category' , 'books.category_id' , '=' , 'category.id')->where('books.status' , '=' , 'true');
+        $result = $this->model->scopePendingRequest($result);
+        return $result->get();
     }
 }

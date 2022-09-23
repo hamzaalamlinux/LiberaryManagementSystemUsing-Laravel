@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class books extends Model
 {
     use HasFactory;
+
+    public function scopePendingRequest($query){
+        return $query->where('booksrequest.status' , '=' , '0');
+    }
 }
