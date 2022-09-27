@@ -20,4 +20,9 @@ class BooksRequestEloquent implements IBookRequestRepository
     {
         return $this->_model->insert($request);
     }
+
+    public function UpdateBookRequest($request){
+        $result = $this->_model->whereIn('id' , $request)->update(['status' => '1']);
+        return $result;
+    }
 }

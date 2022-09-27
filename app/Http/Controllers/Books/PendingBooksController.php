@@ -11,7 +11,7 @@ class PendingBooksController extends Controller
     //
     private  IBookRepository $repository;
 
-    public function __construct(IBookRepository $repository , )
+    public function __construct(IBookRepository $repository)
     {
 
         $this->repository = $repository;

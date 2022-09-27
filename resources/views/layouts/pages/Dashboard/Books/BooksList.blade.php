@@ -10,17 +10,23 @@
                     <div class="card-body">
                         <h4 class="card-title">{{@$item->name}}</h4>
                         <p class="card-text">{{@$item->descriptions}}</p>
-                        @if($item->status == '0')
+                        @php
+                            $title = "";
+                        @endphp
+                        @if($item->status == '1')
                             @php
-                            $attribute = "disabled";
+                                $attribute = "";
+                                    $title = "Download";
+
                             @endphp
                         @else
                             @php
-                                $attribute = "";
+                                $title = "Add Request";
+                               $attribute = "disabled";
                             @endphp
                         @endif
                         <button type="button" onclick="add_request(this)" {{$attribute}} class="btn btn-success" id="{{@$item->id}}" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Add Request
+                            {{$title}}
                         </button>
                     </div>
                 </div>

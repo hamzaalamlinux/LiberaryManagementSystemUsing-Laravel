@@ -5,7 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+      <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
+      <title>Corona Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/mdi/css/materialdesignicons.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/css/vendor.bundle.base.css')); ?>">
@@ -88,6 +89,7 @@
     <script src="<?php echo e(asset('assets/scripts/AddBooksValidation.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/Global.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/BookList.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/scripts/PendingRequest.js')); ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- End custom js for this page -->

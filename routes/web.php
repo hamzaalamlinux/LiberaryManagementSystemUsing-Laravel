@@ -42,4 +42,6 @@ Route::get('/GetBooks' , [\App\Http\Controllers\Books\BooksListController::class
 Route::post('AddBookRequest' , [\App\Http\Controllers\Books\AddBookRequestController::class , 'AddRequest'])->name('AddRequest');
 
 Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
+
+Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
 });
