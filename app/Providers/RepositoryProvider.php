@@ -10,6 +10,8 @@ use App\Repository\BooksRequest\BooksRequestEloquent;
 use App\Repository\BooksRequest\IBookRequestRepository;
 use App\Repository\Login\EloquentLoginRepository;
 use App\Repository\Login\IloginRepository;
+use App\Repository\Panelty\EloquentPanelty;
+use App\Repository\Panelty\IPaneltyRepository;
 use App\Repository\Registeration\EloquentRegister;
 use App\Repository\Registeration\IRegisterRepository;
 use Illuminate\Support\ServiceProvider;
@@ -38,6 +40,9 @@ class RepositoryProvider extends ServiceProvider
 
         /** Add Request For Books */
         $this->app->singleton(IBookRequestRepository::class ,BooksRequestEloquent::class );
+
+        /** For Panelty Userss */
+        $this->app->singleton(IPaneltyRepository::class ,EloquentPanelty::class );
     }
 
     /**

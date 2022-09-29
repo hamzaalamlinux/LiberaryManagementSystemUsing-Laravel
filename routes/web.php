@@ -44,4 +44,9 @@ Route::post('AddBookRequest' , [\App\Http\Controllers\Books\AddBookRequestContro
 Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
 
 Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
+
+Route::get('/BooksRequest' , [\App\Http\Controllers\Books\BooksRequestController::class , 'GetBooksRequest']);
+
+Route::get('/Panelty' ,[\App\Http\Controllers\Panelty\PaneltyController::class , 'GetPanelties']);
+
 });

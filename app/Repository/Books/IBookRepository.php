@@ -7,5 +7,6 @@ interface IBookRepository
   public  function AddBooks($request);
   public function BooksList();
   public function  PendingBookList();
+  public function RequestList();
 
 }

@@ -9,13 +9,13 @@
             <ul class="navbar-nav w-100">
               <li class="nav-item w-100">
                 <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                  <input type="text" class="form-control" placeholder="Search products">
+                  <input type="text" class="form-control" placeholder="Search Books">
                 </form>
               </li>
             </ul>
             <ul class="navbar-nav navbar-nav-right">
               <li class="nav-item dropdown d-none d-lg-block">
-                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-bs-toggle="dropdown" aria-expanded="false" href="#">+ Create New Project</a>
+
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
                   <h6 class="p-3 mb-0">Projects</h6>
                   <div class="dropdown-divider"></div>
@@ -71,8 +71,8 @@
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
                       <img src="<?php echo e(asset('assets/images/faces/face4.jpg')); ?>" alt="image" class="rounded-circle profile-pic">
-                     
-                      
+
+
                     </div>
                     <div class="preview-item-content">
                       <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
@@ -154,7 +154,7 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown">
                   <div class="navbar-profile">
                     <img class="img-xs rounded-circle" src="<?php echo e(asset('assets/images/faces/face15.jpg')); ?>" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo e(Auth::user()->name); ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
@@ -191,4 +191,5 @@
               <span class="mdi mdi-format-line-spacing"></span>
             </button>
           </div>
-        </nav><?php /**PATH E:\LiberaryManagement\resources\views/layouts/includes/header.blade.php ENDPATH**/ ?>
+        </nav>
+<?php /**PATH E:\LiberaryManagement\resources\views/layouts/includes/header.blade.php ENDPATH**/ ?>

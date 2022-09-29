@@ -22,9 +22,17 @@ function Approve(){
         },
         url : "/UpdateRequest",
         type : "POST",
+        dataType : "json",
         data : {request : request},
         success : function (data){
-            console.log(data);
+
+
+            if(data.status == 200){
+                alert(data.message);
+                window.location.reload();
+                return false;
+            }
+            alert(data.message);
         }
     })
 }

@@ -17135,3 +17135,1000 @@ Did you mean one of these?
 [stacktrace]
 #0 {main}
 "} 
+[2022-09-27 11:53:43] local.ERROR: Command "planty" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"planty\" is not defined. at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('planty')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-27 11:58:30] local.ERROR: There are no commands defined in the "create" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"create\" namespace. at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:622)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(673): Symfony\\Component\\Console\\Application->findNamespace('create')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('create:command')
+#2 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2022-09-27 11:58:43] local.ERROR: There are no commands defined in the "create" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"create\" namespace. at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:622)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(673): Symfony\\Component\\Console\\Application->findNamespace('create')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('create:command')
+#2 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2022-09-27 12:00:00] local.ERROR: Command "planty" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"planty\" is not defined. at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('planty')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-27 12:01:22] local.ERROR: Command "planty" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"planty\" is not defined. at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('planty')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-27 12:38:33] local.ERROR: Too few arguments to function Illuminate\Foundation\Console\Kernel::command(), 1 passed in E:\LiberaryManagement\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 338 and exactly 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function Illuminate\\Foundation\\Console\\Kernel::command(), 1 passed in E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php on line 338 and exactly 2 expected at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php:191)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Foundation\\Console\\Kernel->command(' schedule:run')
+#1 E:\\LiberaryManagement\\app\\Console\\Kernel.php(32): Illuminate\\Support\\Facades\\Facade::__callStatic('command', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Kernel->App\\Console\\{closure}()
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(230): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Illuminate\\Foundation\\Application))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(200): Illuminate\\Console\\Scheduling\\Event->start(Object(Illuminate\\Foundation\\Application))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Illuminate\\Foundation\\Application))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(184): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Illuminate\\Foundation\\Application))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->Illuminate\\Console\\Scheduling\\{closure}()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(56): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2022-0...', Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(199): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(127): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Illuminate\\Events\\Dispatcher), Object(NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(144): Illuminate\\Container\\Container->call(Array)
+#23 E:\\LiberaryManagement\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(126): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(1002): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2022-09-27 12:39:25] local.ERROR: Too few arguments to function Illuminate\Foundation\Console\Kernel::command(), 1 passed in E:\LiberaryManagement\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 338 and exactly 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function Illuminate\\Foundation\\Console\\Kernel::command(), 1 passed in E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php on line 338 and exactly 2 expected at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php:191)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Foundation\\Console\\Kernel->command(' schedule:run')
+#1 E:\\LiberaryManagement\\app\\Console\\Kernel.php(32): Illuminate\\Support\\Facades\\Facade::__callStatic('command', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Kernel->App\\Console\\{closure}()
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(230): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Illuminate\\Foundation\\Application))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(200): Illuminate\\Console\\Scheduling\\Event->start(Object(Illuminate\\Foundation\\Application))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Illuminate\\Foundation\\Application))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(184): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Illuminate\\Foundation\\Application))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->Illuminate\\Console\\Scheduling\\{closure}()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(56): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2022-0...', Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(199): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(127): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Illuminate\\Events\\Dispatcher), Object(NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(144): Illuminate\\Container\\Container->call(Array)
+#23 E:\\LiberaryManagement\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(126): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(1002): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2022-09-27 12:39:41] local.ERROR: Too few arguments to function Illuminate\Foundation\Console\Kernel::command(), 1 passed in E:\LiberaryManagement\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 338 and exactly 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function Illuminate\\Foundation\\Console\\Kernel::command(), 1 passed in E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php on line 338 and exactly 2 expected at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php:191)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Foundation\\Console\\Kernel->command(' schedule:run')
+#1 E:\\LiberaryManagement\\app\\Console\\Kernel.php(32): Illuminate\\Support\\Facades\\Facade::__callStatic('command', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Kernel->App\\Console\\{closure}()
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(230): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Illuminate\\Foundation\\Application))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(200): Illuminate\\Console\\Scheduling\\Event->start(Object(Illuminate\\Foundation\\Application))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Illuminate\\Foundation\\Application))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(184): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Illuminate\\Foundation\\Application))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->Illuminate\\Console\\Scheduling\\{closure}()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(56): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2022-0...', Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(199): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(127): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Illuminate\\Events\\Dispatcher), Object(NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(144): Illuminate\\Container\\Container->call(Array)
+#23 E:\\LiberaryManagement\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(126): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(1002): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2022-09-27 12:40:42] local.ERROR: Too few arguments to function Illuminate\Foundation\Console\Kernel::command(), 1 passed in E:\LiberaryManagement\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 338 and exactly 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function Illuminate\\Foundation\\Console\\Kernel::command(), 1 passed in E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php on line 338 and exactly 2 expected at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php:191)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Foundation\\Console\\Kernel->command(' schedule:run')
+#1 E:\\LiberaryManagement\\app\\Console\\Kernel.php(32): Illuminate\\Support\\Facades\\Facade::__callStatic('command', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Kernel->App\\Console\\{closure}()
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(230): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Illuminate\\Foundation\\Application))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(200): Illuminate\\Console\\Scheduling\\Event->start(Object(Illuminate\\Foundation\\Application))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Illuminate\\Foundation\\Application))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(184): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Illuminate\\Foundation\\Application))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->Illuminate\\Console\\Scheduling\\{closure}()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(56): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2022-0...', Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(199): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(127): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Illuminate\\Events\\Dispatcher), Object(NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(144): Illuminate\\Container\\Container->call(Array)
+#23 E:\\LiberaryManagement\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(126): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(1002): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2022-09-27 12:41:52] local.ERROR: Too few arguments to function Illuminate\Foundation\Console\Kernel::command(), 1 passed in E:\LiberaryManagement\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php on line 338 and exactly 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function Illuminate\\Foundation\\Console\\Kernel::command(), 1 passed in E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php on line 338 and exactly 2 expected at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php:191)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Foundation\\Console\\Kernel->command(' schedule:run')
+#1 E:\\LiberaryManagement\\app\\Console\\Kernel.php(32): Illuminate\\Support\\Facades\\Facade::__callStatic('command', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Kernel->App\\Console\\{closure}()
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Closure->__invoke()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(118): Illuminate\\Container\\Container->call(Array, Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(230): Illuminate\\Console\\Scheduling\\CallbackEvent->execute(Object(Illuminate\\Foundation\\Application))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Event.php(200): Illuminate\\Console\\Scheduling\\Event->start(Object(Illuminate\\Foundation\\Application))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\CallbackEvent.php(77): Illuminate\\Console\\Scheduling\\Event->run(Object(Illuminate\\Foundation\\Application))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(184): Illuminate\\Console\\Scheduling\\CallbackEvent->run(Object(Illuminate\\Foundation\\Application))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->Illuminate\\Console\\Scheduling\\{closure}()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Factory.php(56): Illuminate\\Console\\View\\Components\\Task->render('<fg=gray>2022-0...', Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(199): Illuminate\\Console\\View\\Components\\Factory->__call('task', Array)
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php(127): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->runEvent(Object(Illuminate\\Console\\Scheduling\\CallbackEvent))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Console\\Scheduling\\ScheduleRunCommand->handle(Object(Illuminate\\Console\\Scheduling\\Schedule), Object(Illuminate\\Events\\Dispatcher), Object(NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(144): Illuminate\\Container\\Container->call(Array)
+#23 E:\\LiberaryManagement\\vendor\\symfony\\console\\Command\\Command.php(291): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(126): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(1002): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Console\\Scheduling\\ScheduleRunCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2022-09-28 07:44:40] local.ERROR: Call to undefined method App\Repository\Books\EloquestBooks::RequestLst() {"userId":3,"exception":"[object] (Error(code: 0): Call to undefined method App\\Repository\\Books\\EloquestBooks::RequestLst() at E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php:19)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#45 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#47 {main}
+"} 
+[2022-09-28 07:48:59] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'books.i' in 'field list' (SQL: select `books`.`i`, `books`.`name`, `url`, `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`status` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) {"userId":3,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'books.i' in 'field list' (SQL: select `books`.`i`, `books`.`name`, `url`, `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`status` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:759)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#57 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'books.i' in 'field list' at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:413)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(413): PDO->prepare('select `books`....')
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(752): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select `books`....', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#59 {main}
+"} 
+[2022-09-28 08:03:48] local.ERROR: Class "App\Repository\Books\DB" not found {"userId":3,"exception":"[object] (Error(code: 0): Class \"App\\Repository\\Books\\DB\" not found at E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php:37)
+[stacktrace]
+#0 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#46 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#48 {main}
+"} 
+[2022-09-28 08:04:39] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then "Pending" else "Expire" end) as requeststa...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, case when booksrequest.status = 1 then "Approve" , when booksrequest.status = 0 then "Pending" else "Expire" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) {"userId":3,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststa...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, case when booksrequest.status = 1 then \"Approve\" , when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:759)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#57 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststa...' at line 1 at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:413)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(413): PDO->prepare('select `books`....')
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(752): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select `books`....', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#59 {main}
+"} 
+[2022-09-28 08:05:31] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 then "Approve" , when booksrequest.status == 0 then "Pending" else "Expir...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, case when booksrequest.status == 1 then "Approve" , when booksrequest.status == 0 then "Pending" else "Expire" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) {"userId":3,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 then \"Approve\" , when booksrequest.status == 0 then \"Pending\" else \"Expir...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, case when booksrequest.status == 1 then \"Approve\" , when booksrequest.status == 0 then \"Pending\" else \"Expire\" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:759)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#57 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 then \"Approve\" , when booksrequest.status == 0 then \"Pending\" else \"Expir...' at line 1 at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:413)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(413): PDO->prepare('select `books`....')
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(752): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select `books`....', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#59 {main}
+"} 
+[2022-09-28 08:06:39] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then "Pending" else "Expire" end) as requeststa...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, (case when booksrequest.status = 1 then "Approve" , when booksrequest.status = 0 then "Pending" else "Expire" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) {"userId":3,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststa...' at line 1 (SQL: select `books`.`id`, `books`.`name`, `url`, (case when booksrequest.status = 1 then \"Approve\" , when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststatus , `category`.`name` as `categoryname`, `descriptions`, `booksrequest`.`message`, `booksrequest`.`status`, `books`.`AuthorName`, `booksrequest`.`endate` from `books` inner join `booksimages` on `books`.`id` = `booksimages`.`book_id` left join `booksrequest` on `books`.`id` = `booksrequest`.`bookid` inner join `category` on `books`.`category_id` = `category`.`id` where `books`.`status` = true and `booksrequest`.`userid` = 3) at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:759)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#10 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#11 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#57 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' when booksrequest.status = 0 then \"Pending\" else \"Expire\" end) as requeststa...' at line 1 at E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:413)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(413): PDO->prepare('select `books`....')
+#1 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(752): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select `books`....', Array)
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(719): Illuminate\\Database\\Connection->runQueryCallback('select `books`....', Array, Object(Closure))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(421): Illuminate\\Database\\Connection->run('select `books`....', Array, Object(Closure))
+#4 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2630): Illuminate\\Database\\Connection->select('select `books`....', Array, true)
+#5 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2618): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3154): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2619): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(699): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(683): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 E:\\LiberaryManagement\\app\\Repository\\Books\\EloquestBooks.php(39): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 E:\\LiberaryManagement\\app\\Http\\Controllers\\Books\\BooksRequestController.php(19): App\\Repository\\Books\\EloquestBooks->RequestList()
+#12 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Books\\BooksRequestController->GetBooksRequest()
+#13 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('GetBooksRequest', Array)
+#14 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(261): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Books\\BooksRequestController), 'GetBooksRequest')
+#15 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(204): Illuminate\\Routing\\Route->runController()
+#16 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(725): Illuminate\\Routing\\Route->run()
+#17 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 E:\\LiberaryManagement\\app\\Http\\Middleware\\authentication.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\authentication->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(726): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(667): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 E:\\LiberaryManagement\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('E:\\\\LiberaryMana...')
+#59 {main}
+"} 
+[2022-09-29 08:23:25] local.ERROR: Command "make:migarion" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migarion\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('make:migarion')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-29 08:23:50] local.ERROR: Command "make:migraion" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migraion\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('make:migraion')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-29 08:25:17] local.ERROR: Command "migare" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migare\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('migare')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-09-29 08:25:23] local.ERROR: Command "migarate" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migarate\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php:692)
+[stacktrace]
+#0 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('migarate')
+#1 E:\\LiberaryManagement\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\LiberaryManagement\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\LiberaryManagement\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

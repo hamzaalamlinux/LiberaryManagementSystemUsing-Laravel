@@ -9,24 +9,9 @@
                     <div class="card-body">
                         <h4 class="card-title"><?php echo e(@$item->name); ?></h4>
                         <p class="card-text"><?php echo e(@$item->descriptions); ?></p>
-                        <?php
-                            $title = "";
-                        ?>
-                        <?php if($item->status == '1'): ?>
-                            <?php
-                                $attribute = "";
-                                    $title = "Download";
 
-                            ?>
-                        <?php else: ?>
-                            <?php
-                                $title = "Add Request";
-                               $attribute = "disabled";
-                            ?>
-                        <?php endif; ?>
-                        <button type="button" onclick="add_request(this)" <?php echo e($attribute); ?> class="btn btn-success" id="<?php echo e(@$item->id); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <?php echo e($title); ?>
-
+                        <button type="button" onclick="add_request(this)"  class="btn btn-success" id="<?php echo e(@$item->id); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                           Add Request
                         </button>
                     </div>
                 </div>
