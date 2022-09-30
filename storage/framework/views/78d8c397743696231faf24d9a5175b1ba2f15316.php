@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
 
     <div class="table-responsive my-5">
-        
+
 
 
         <table class="table my-3">

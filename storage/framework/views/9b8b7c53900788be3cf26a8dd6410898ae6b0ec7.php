@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/owl-carousel-2/owl.theme.default.min.css')); ?>">
 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/login.css')); ?>">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
       <!-- End plugin css for this page -->
     <!-- inject:css -->
@@ -90,7 +90,6 @@
     <script src="<?php echo e(asset('assets/scripts/Global.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/BookList.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/PendingRequest.js')); ?>"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- End custom js for this page -->
   </body>
