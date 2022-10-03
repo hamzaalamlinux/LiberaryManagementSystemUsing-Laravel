@@ -11,6 +11,8 @@ class AddBookRequestController extends Controller
    private IBookRequestRepository $_repository;
     public function __construct(IBookRequestRepository $_repository)
     {
+        $this->middleware('auth');
+        $this->middleware('role:ROLE_SUPERADMIN');
         $this->_repository = $_repository;
     }
 
