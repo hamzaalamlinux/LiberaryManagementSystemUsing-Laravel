@@ -77,6 +77,7 @@
                 <li class="nav-item"> <a class="nav-link" href="{{@url('/AddBooksFrom')}}">Add Books</a></li>
                 <li class="nav-item"> <a class="nav-link" href="{{@url('/GetBooks')}}">Books</a></li>
                   <li class="nav-item"> <a class="nav-link" href="{{@url('/BooksRequest')}}">Books Request</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="{{@url('/PendingRequest')}}">Pending Request</a></li>
 
               </ul>
             </div>

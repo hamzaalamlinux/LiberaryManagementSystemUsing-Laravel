@@ -12,6 +12,9 @@ class books extends Model
     public function scopePanelty($query){
         return $query->where('booksrequest.status' , '=' , '3');
     }
+    public function scopePendingRequest($query){
+        return $query->where('booksrequest.status' , '=' , '0');
+    }
 
   public function UserWiseRequest($query , $userid){
       return $query->where('booksrequest.userid' , '=' , $userid);

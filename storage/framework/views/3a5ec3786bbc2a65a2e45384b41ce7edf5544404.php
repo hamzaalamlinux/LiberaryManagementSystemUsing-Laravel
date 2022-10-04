@@ -8,7 +8,7 @@
 
 
         <table class="table my-3">
-            <caption>List of users</caption>
+            <h2>List Pendings Request</h2>
             <thead>
             <tr>
                 <th><input onclick="checkAll()" type="checkbox" ></th>
@@ -17,6 +17,7 @@
                 <th scope="col">Last Date</th>
                 <th scope="col">Message</th>
                 <th scope="col">Image</th>
+
 
             </tr>
             </thead>
@@ -32,6 +33,7 @@
                     <td><?php echo e($item->endate); ?></td>
                     <td><?php echo e($item->message); ?></td>
                     <td><img  src="<?php echo e(@$item->url); ?>" alt="Card image" ></td>
+
                 </tr>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </tbody>

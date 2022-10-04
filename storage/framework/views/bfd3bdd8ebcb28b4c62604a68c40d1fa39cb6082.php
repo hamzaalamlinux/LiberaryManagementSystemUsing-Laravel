@@ -77,6 +77,7 @@
                 <li class="nav-item"> <a class="nav-link" href="<?php echo e(@url('/AddBooksFrom')); ?>">Add Books</a></li>
                 <li class="nav-item"> <a class="nav-link" href="<?php echo e(@url('/GetBooks')); ?>">Books</a></li>
                   <li class="nav-item"> <a class="nav-link" href="<?php echo e(@url('/BooksRequest')); ?>">Books Request</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="<?php echo e(@url('/PendingRequest')); ?>">Pending Request</a></li>
 
               </ul>
             </div>

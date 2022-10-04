@@ -36,20 +36,29 @@ Route::middleware('role:admin')->group(function(){
  Route::get('/AddBooksFrom' , function(){
     return view('layouts.pages.Dashboard.Books.AddBooks');
  });
+    Route::post('/AddBooks' , [AddBooksController::class  , 'AddBooks'])->name('AddBooks');
+
+    Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
+
+    Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
 });
 
-Route::post('/AddBooks' , [AddBooksController::class  , 'AddBooks'])->name('AddBooks');
 
-Route::get('/GetBooks' , [\App\Http\Controllers\Books\BooksListController::class , 'GetBooks']);
+    /** Authorizarion user role */
+Route::middleware('role:user')->group(function(){
 
-Route::post('AddBookRequest' , [\App\Http\Controllers\Books\AddBookRequestController::class , 'AddRequest'])->name('AddRequest');
+    Route::get('/GetBooks' , [\App\Http\Controllers\Books\BooksListController::class , 'GetBooks']);
 
-Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
+    Route::get('/BooksRequest' , [\App\Http\Controllers\Books\BooksRequestController::class , 'GetBooksRequest']);
 
-Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
+    Route::post('AddBookRequest' , [\App\Http\Controllers\Books\AddBookRequestController::class , 'AddRequest'])->name('AddRequest');
 
-Route::get('/BooksRequest' , [\App\Http\Controllers\Books\BooksRequestController::class , 'GetBooksRequest']);
+    Route::get('/Panelty' ,[\App\Http\Controllers\Panelty\PaneltyController::class , 'GetPanelties']);
+});
 
-Route::get('/Panelty' ,[\App\Http\Controllers\Panelty\PaneltyController::class , 'GetPanelties']);
+
+    Route::get('/logout' , [\App\Http\Controllers\Logout\LogoutController::class , 'Logout']);
+
+
 
 });
