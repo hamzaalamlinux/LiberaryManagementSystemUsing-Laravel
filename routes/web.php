@@ -41,6 +41,8 @@ Route::middleware('role:admin')->group(function(){
     Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
 
     Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
+
+    Route::get('/GetUsers' , [App\Http\Controllers\Users\UsersController::class , 'GetUsers']);
 });
 
 

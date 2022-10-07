@@ -14,6 +14,8 @@ use App\Repository\Panelty\EloquentPanelty;
 use App\Repository\Panelty\IPaneltyRepository;
 use App\Repository\Registeration\EloquentRegister;
 use App\Repository\Registeration\IRegisterRepository;
+use App\Repository\Users\EloquentUsers;
+use App\Repository\Users\IUsersRepository;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryProvider extends ServiceProvider
@@ -43,6 +45,9 @@ class RepositoryProvider extends ServiceProvider
 
         /** For Panelty Userss */
         $this->app->singleton(IPaneltyRepository::class ,EloquentPanelty::class );
+
+        /** For Users Repository */
+        $this->app->singleton(IUsersRepository::class ,EloquentUsers::class );
     }
 
     /**
