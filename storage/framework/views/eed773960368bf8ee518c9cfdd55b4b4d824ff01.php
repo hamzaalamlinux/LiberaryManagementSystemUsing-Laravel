@@ -26,7 +26,7 @@
                         <td><?php echo e($item->name); ?></td>
                         <td><?php echo e($item->email); ?></td>
                         <td><?php echo e($item->created_at); ?></td>
-                    <td>Action</td>
+                        <td>Action</td>
                 </tr>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </tbody>

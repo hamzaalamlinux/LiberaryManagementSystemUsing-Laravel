@@ -5,4 +5,6 @@ namespace App\Repository\Users;
 interface IUsersRepository
 {
   public function GetUsers();
+
+  public function AddUser($name , $email , $password);
 }

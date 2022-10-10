@@ -33,9 +33,9 @@ Route::get('/dashboard', [LoginController::class , 'Dashboard'])->name('Dashboar
 
 /** Authorizarion admin role */
 Route::middleware('role:admin')->group(function(){
- Route::get('/AddBooksFrom' , function(){
-    return view('layouts.pages.Dashboard.Books.AddBooks');
- });
+     Route::get('/AddBooksFrom' , function(){
+        return view('layouts.pages.Dashboard.Books.AddBooks');
+     });
     Route::post('/AddBooks' , [AddBooksController::class  , 'AddBooks'])->name('AddBooks');
 
     Route::get('/PendingRequest'  , [\App\Http\Controllers\Books\PendingBooksController::class , 'GetBooksPendingRequest']);
@@ -43,6 +43,12 @@ Route::middleware('role:admin')->group(function(){
     Route::post('/UpdateRequest' , [\App\Http\Controllers\Books\UpdatePendingrequestController::class , 'UpedateBookRequest'])->name('UpedateBookRequest');
 
     Route::get('/GetUsers' , [App\Http\Controllers\Users\UsersController::class , 'GetUsers']);
+
+     Route::get('/AddUserForm' , function (){
+       return view('layouts.pages.Dashboard.Users.AddUserForm');
+    });
+
+     Route::post('/AddUsers' , [\App\Http\Controllers\Users\AddUsersController::class , 'AddUsers']);
 });
 
 

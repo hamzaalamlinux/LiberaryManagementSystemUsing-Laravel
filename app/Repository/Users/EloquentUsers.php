@@ -3,6 +3,7 @@
 namespace App\Repository\Users;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
 class EloquentUsers implements IUsersRepository
 {
@@ -19,5 +20,14 @@ class EloquentUsers implements IUsersRepository
     public function GetUsers()
     {
         return $this->_model::all();
+    }
+
+    public function AddUser($name , $email , $password)
+    {
+        $this->_model->fill([
+            'name' =>  $name,
+            'email' => $email,
+            'password' => Hash::make($password)
+        ])->save();
     }
 }
