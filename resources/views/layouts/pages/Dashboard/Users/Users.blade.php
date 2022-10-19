@@ -27,7 +27,7 @@
                         <td>{{$item->name}}</td>
                         <td>{{$item->email}}</td>
                         <td>{{$item->created_at}}</td>
-                        <td>Action</td>
+                        <td><a href="javascript:void(0)" id="{{$item->id}}" onclick="remove(this)" class="nav-link text-white">&times;</a></td>
                 </tr>
             @endforeach
             </tbody>

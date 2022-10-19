@@ -19,7 +19,7 @@ class EloquentUsers implements IUsersRepository
 
     public function GetUsers()
     {
-        return $this->_model::all();
+        return $this->_model::all()->where('status' , '=' , '0');
     }
 
     public function AddUser($name , $email , $password)
@@ -29,5 +29,11 @@ class EloquentUsers implements IUsersRepository
             'email' => $email,
             'password' => Hash::make($password)
         ])->save();
+    }
+
+    public function Delete($id)
+    {
+        $result = $this->_model->where('id' , $id)->update(['status' => 1]);
+        return $result;
     }
 }

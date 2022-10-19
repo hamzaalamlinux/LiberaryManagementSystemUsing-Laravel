@@ -90,6 +90,7 @@
     <script src="<?php echo e(asset('assets/scripts/Global.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/BookList.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/PendingRequest.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/scripts/Users.js')); ?>"></script>
 
     <!-- End custom js for this page -->
   </body>

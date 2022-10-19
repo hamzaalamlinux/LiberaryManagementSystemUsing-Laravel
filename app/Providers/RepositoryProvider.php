@@ -14,6 +14,10 @@ use App\Repository\Panelty\EloquentPanelty;
 use App\Repository\Panelty\IPaneltyRepository;
 use App\Repository\Registeration\EloquentRegister;
 use App\Repository\Registeration\IRegisterRepository;
+use App\Repository\Roles\EloquentRoles;
+use App\Repository\Roles\IRolesRepository;
+use App\Repository\UserRoles\EloquentUserRoles;
+use App\Repository\UserRoles\IUserRolesRepository;
 use App\Repository\Users\EloquentUsers;
 use App\Repository\Users\IUsersRepository;
 use Illuminate\Support\ServiceProvider;
@@ -48,6 +52,12 @@ class RepositoryProvider extends ServiceProvider
 
         /** For Users Repository */
         $this->app->singleton(IUsersRepository::class ,EloquentUsers::class );
+
+        /** For Roles */
+        $this->app->singleton(IRolesRepository::class ,EloquentRoles::class);
+
+        /** For Adding Roles */
+        $this->app->singleton(IUserRolesRepository::class ,EloquentUserRoles::class);
     }
 
     /**

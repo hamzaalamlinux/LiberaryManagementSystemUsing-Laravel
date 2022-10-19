@@ -44,11 +44,17 @@ Route::middleware('role:admin')->group(function(){
 
     Route::get('/GetUsers' , [App\Http\Controllers\Users\UsersController::class , 'GetUsers']);
 
-     Route::get('/AddUserForm' , function (){
+    Route::get('/AddUserForm' , function (){
        return view('layouts.pages.Dashboard.Users.AddUserForm');
     });
 
      Route::post('/AddUsers' , [\App\Http\Controllers\Users\AddUsersController::class , 'AddUsers']);
+
+     Route::post('/DeleteUser' , [\App\Http\Controllers\Users\DeleteUserController::class , 'Delete']);
+
+     Route::get('/Role' , [\App\Http\Controllers\Roles\RoleControlelr::class , 'GetRoles'])->name('GetRoles');
+
+     Route::post('/AddRole' , [\App\Http\Controllers\Roles\AddRoleController::class , 'AddRole']);
 });
 
 
@@ -64,9 +70,6 @@ Route::middleware('role:user')->group(function(){
     Route::get('/Panelty' ,[\App\Http\Controllers\Panelty\PaneltyController::class , 'GetPanelties']);
 });
 
-
     Route::get('/logout' , [\App\Http\Controllers\Logout\LogoutController::class , 'Logout']);
-
-
 
 });

@@ -7,4 +7,6 @@ interface IUsersRepository
   public function GetUsers();
 
   public function AddUser($name , $email , $password);
+
+  public function Delete($id);
 }

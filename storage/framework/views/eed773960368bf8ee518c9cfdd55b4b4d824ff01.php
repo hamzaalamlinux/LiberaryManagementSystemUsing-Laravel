@@ -26,7 +26,7 @@
                         <td><?php echo e($item->name); ?></td>
                         <td><?php echo e($item->email); ?></td>
                         <td><?php echo e($item->created_at); ?></td>
-                        <td>Action</td>
+                        <td><a href="javascript:void(0)" id="<?php echo e($item->id); ?>" onclick="remove(this)" class="nav-link text-white">&times;</a></td>
                 </tr>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </tbody>
