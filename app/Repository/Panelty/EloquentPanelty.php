@@ -4,13 +4,14 @@ namespace App\Repository\Panelty;
 
 use App\Models\BookRequest;
 use App\Models\books;
+use App\Models\panelty;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class EloquentPanelty implements IPaneltyRepository
 {
-    private  books $model;
-    public function __construct(books $model)
+    private  panelty $model;
+    public function __construct(panelty $model)
     {
         $this->model = $model;
     }
@@ -21,5 +22,18 @@ class EloquentPanelty implements IPaneltyRepository
         $result = $this->model->UserWiseRequest($result , Auth::id());
         $result = $this->model->scopePanelty($result);
         return $result->get();
+    }
+
+    public function GetPanelties()
+    {
+        $result = $this->model::all()->where('status' , '=' , '1');
+        return $result;
+    }
+
+
+    public function Update($amount)
+    {
+        $result =  DB::table('panelty')->update(['amount' => $amount]);
+        return $result;
     }
 }

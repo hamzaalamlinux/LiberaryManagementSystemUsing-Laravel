@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/owl-carousel-2/owl.carousel.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/vendors/owl-carousel-2/owl.theme.default.min.css')); ?>">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?php echo e(asset('assets/css/login.css')); ?>">
+
+      <link rel="stylesheet" href="<?php echo e(asset('assets/css/login.css')); ?>">
 
 
       <!-- End plugin css for this page -->
@@ -91,6 +93,8 @@
     <script src="<?php echo e(asset('assets/scripts/BookList.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/PendingRequest.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/scripts/Users.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/scripts/Panelties.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/scripts/Custom.js')); ?>"></script>
 
     <!-- End custom js for this page -->
   </body>

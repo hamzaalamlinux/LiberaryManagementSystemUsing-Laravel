@@ -25,8 +25,6 @@ function Approve(){
         dataType : "json",
         data : {request : request},
         success : function (data){
-
-
             if(data.status == 200){
                 alert(data.message);
                 window.location.reload();

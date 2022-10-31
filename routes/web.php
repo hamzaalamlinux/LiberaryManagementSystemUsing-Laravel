@@ -55,6 +55,10 @@ Route::middleware('role:admin')->group(function(){
      Route::get('/Role' , [\App\Http\Controllers\Roles\RoleControlelr::class , 'GetRoles'])->name('GetRoles');
 
      Route::post('/AddRole' , [\App\Http\Controllers\Roles\AddRoleController::class , 'AddRole']);
+
+    Route::get('/GetPanelty' , [\App\Http\Controllers\Panelty\GetPaneltyController::class , 'GetPanelties']);
+
+    Route::post('/UpdatePanelties' ,[\App\Http\Controllers\Panelty\UpdatePaneltyController::class , 'Update']);
 });
 
 
